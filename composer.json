@@ -1,0 +1,19 @@
+{
+	"authors": [
+        {
+            "name": "Niraj Chaudhary",
+            "email": "nirajchy2000@gmail.com",
+            "role": "Developer"
+        }
+	],
+	"require": {
+		"php": ">=7.4 || >=8.0",
+		"jenssegers/blade": "^2.0",
+		"bramus/router": "^1.6"
+	},
+	"autoload": {
+		"psr-4": {
+			"Trello\\": "src/"
+		}
+	}
+}
